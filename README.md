@@ -190,5 +190,73 @@ Click on Ethernet
 
 <img width="639" alt="Screenshot 2024-05-19 at 6 18 26 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ddbc1a8a-3654-4b64-bfcd-27397c579866">
 
+Click on the Properties button next to the blue and yellow shield
+
+<img width="567" alt="Screenshot 2024-05-19 at 6 20 26 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/5cea62fb-4ccc-437e-8349-512b93bfd0a0">
+
+Double click on the option highlighted above
+
+<img width="606" alt="Screenshot 2024-05-19 at 6 21 38 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/82bab31a-74af-470a-bb9e-9d9e497829b4">
+
+Click the checkbox at the bottom of the window where it says use the following DNS server address
+
+Now we need to input the IP address of your Windows Server VM to access this open up your server VM
+
+<img width="504" alt="Screenshot 2024-05-19 at 6 25 12 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/64ff635a-7e61-4d63-af50-3ef61d27a3ca">
+
+Navigate to the searchbar and type cmd
+
+Click command prompt
+
+type ipconfig /all
+
+<img width="370" alt="Screenshot 2024-05-19 at 6 27 18 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/e45ed2e7-b1e4-439e-bed2-30c95a06a3cc">
+
+We want to select the IP address listed above
+
+Open your windows 10 VM and enter the IP address. Chances are your IP is different so make sure you check for your servers IP address
+
+<img width="247" alt="Screenshot 2024-05-19 at 6 29 14 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ebd5fd98-12ed-4940-b0ae-c665eaace6bc">
+
+Once you've done that click OK
+
+Now type domain in your windows 10 VM's search bar
+
+<img width="633" alt="Screenshot 2024-05-19 at 6 32 17 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/f8306e27-afc9-4e06-a2f0-a9d8ace45da2">
+
+Click on Access work or school
+
+<img width="634" alt="Screenshot 2024-05-19 at 6 32 56 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/1fb63375-7178-4873-ab2c-e08f06e33f01">
+
+Click on connect
+
+<img width="615" alt="Screenshot 2024-05-19 at 6 33 46 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/2c9daefe-1c63-48d2-8d83-679c1f3e3da1">
+
+Click on the Join the device to a local Active Directory domain button at the bottom of the window
+
+<img width="630" alt="Screenshot 2024-05-19 at 6 34 58 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/072f4277-ba64-47cb-a601-758ed9c244fd">
+
+Enter the domain you set up on your Server VM
+
+<img width="522" alt="Screenshot 2024-05-19 at 6 35 46 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/1d933671-6c49-41bf-841a-b91ec037f11a">
+
+Enter your Domain Controller information 
+
+<img width="635" alt="Screenshot 2024-05-19 at 6 37 53 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/a506c47a-7b16-4925-9836-05bd19bf8167">
+
+If you have entered your info correctly you should see this
+
+We will click the skip button as we can are going to add users another way
+
+<img width="634" alt="Screenshot 2024-05-19 at 6 39 14 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/4ac52333-9b2d-4475-92f7-fe7b1c45535b">
+
+We will then have to restart our device so we can add the computer to the domain
+
+Click the restart button 
+
+Now lets check our windows server VM
+<img width="761" alt="Screenshot 2024-05-19 at 6 41 32 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ba239933-6954-43d3-be5f-7ec8130e8fe9">
+
+There it is! We just added a Computer to our domain!
 
 
