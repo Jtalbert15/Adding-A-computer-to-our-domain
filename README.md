@@ -110,3 +110,85 @@ Once you are satisfied you can click next
 Click install now
 
 <img width="635" alt="Screenshot 2024-05-19 at 5 38 57 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/27b9d5f5-76ec-4a00-8a0c-354bfbeffdee">
+
+Accept the Licensing Agreement
+
+Click Next
+
+<img width="632" alt="Screenshot 2024-05-19 at 5 43 03 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/accb5fb0-2741-486b-8e74-0e86add83ef3">
+
+Select Custom: Install Windows only (advanced)
+
+
+<img width="634" alt="Screenshot 2024-05-19 at 5 44 07 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/c9a9adb7-3fb4-4e38-94d4-25be3d2caa0c">
+
+Click Next. Your VM will then install Windows 10. This may take a bit of time.
+
+<img width="633" alt="Screenshot 2024-05-19 at 5 44 47 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/f2d2e9b3-b6b1-4ea3-ba35-7e3cd266deac">
+
+Step 3) Now it's time to create a local admin account
+
+<img width="636" alt="Screenshot 2024-05-19 at 5 53 29 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ddc1b9b1-b9c2-4029-a1ec-1e91b9241b20">
+
+You may fill out the information to your specifications. I recommend skipping the second keyboard setup
+
+<img width="641" alt="Screenshot 2024-05-19 at 5 55 35 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/b053dc9c-6b74-4329-b17f-2f43f95cac58">
+
+Once you get to this page you will select domain join instead in the bottom left corner of your screen
+
+<img width="638" alt="Screenshot 2024-05-19 at 5 57 05 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/bad392af-1ed8-4e45-b21b-887fc4eb4b4f">
+
+This account we are creating has nothing to do with the domain so you can name it anything you want. I chose admin as it is an admin user for this computer only.
+
+<img width="634" alt="Screenshot 2024-05-19 at 5 58 33 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/8c86f32d-73f8-442d-b403-203581abd8c9">
+
+We will then make a password for this local user account
+
+<img width="638" alt="Screenshot 2024-05-19 at 5 59 33 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/f3ba656a-222b-48c7-a21a-6e84d4769d34">
+
+You then will have to create 3 user security questions and answers 
+
+Once you have completed that click next
+
+<img width="637" alt="Screenshot 2024-05-19 at 6 01 19 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/490f4e6d-4345-4b0c-ab44-7db64ac21678">
+
+You can uncheck the privacy settings to your liking
+
+Once done click accept
+
+<img width="635" alt="Screenshot 2024-05-19 at 6 03 02 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/598dd329-8318-4c82-b0ff-1651daf4d585">
+
+Personally I would not set up cortana but that is up to you
+
+Once completed your computer will configure itself to the information we provided.
+
+<img width="633" alt="Screenshot 2024-05-19 at 6 04 03 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ad3229a3-e78f-4a81-8e7a-c91e72e2a164">
+
+Just like that we are logged in as an admin for our VM! Now we can add this VM to our domain!
+
+Step 4) Now that we are logged in to our VM lets get it connected to our domain!
+
+<img width="636" alt="Screenshot 2024-05-19 at 6 10 34 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/6127f7e2-7c75-4fbb-8f61-4e7a557b0e48"> 
+
+First lets click the X on the top right of the Microsoft Edge Tab
+
+In order to connect to our domain we need to use its DNS. Navigate to the search bar in the bottom left and search network
+
+<img width="633" alt="Screenshot 2024-05-19 at 6 12 37 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/af391921-4ef6-4d0b-a05b-166476a681c2">
+
+You should see Network status appear
+
+Click on it
+
+<img width="634" alt="Screenshot 2024-05-19 at 6 15 48 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/7de44d0b-b98c-4db7-8519-af6121eb413a">
+
+Navigate to Change adapter settings and click on it
+
+<img width="638" alt="Screenshot 2024-05-19 at 6 17 29 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/dc40617b-aabf-4fb6-9493-b6be4841ff7a">
+
+Click on Ethernet
+
+<img width="639" alt="Screenshot 2024-05-19 at 6 18 26 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ddbc1a8a-3654-4b64-bfcd-27397c579866">
+
+
+
