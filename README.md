@@ -1,13 +1,15 @@
 # Adding-A-computer-to-our-domain
-In this Lab we will add a computer to our Domain
 
-prereqs:
+<h1>Summary</h1>
+In this Lab we will add a computer to our Domain. To do this we will first create a Windows 10 VM. Once we have created the VM we will then create a local admin account so that we can access the computer. Then we will change our VM's DNS to the IP address of our Windows Server VM. Finally we will add our computer to the domain using our Domain Controller credentials.
 
-https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s
+<h1>What is DNS?</h1>
 
-https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s
+DNS or Domain Name Service allows us to more easily communicate with networks. An IPV4 address is a 32 bit number seperated into 4 octets. Instead of having to remember and type out that 32 bit number DNS allows us to type something like google.com and DNS will find the IP address associated with that name.
 
-Step 1) In order for our domain to be up and running we need to start our Windows Server 2019 VM.
+<h1>Step 1) Booting up the Server VM</h1>
+
+ In order for our domain to be up and running we need to start our Windows Server 2019 VM.
 
 <img width="282" alt="Screenshot 2024-05-19 at 4 54 37 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/7a10c976-70ce-408e-b788-71fe4685bc2f">
 
@@ -23,7 +25,7 @@ And just like that our server is up and running!
 
 Tip: Even though this machine is required to run for the lab we aren't really going to do anything with this VM after we create our helpdesk account so I recommend changing the power and sleep settings to never. When you do this make sure you turn off your VM when you've completed your lab or it will run forever.
 
-Step 2) Now that our server is up we can create our Windows 10 VM. To do this open up your Virtual Box Manager
+<h1>Step 2) Now that our server is up we can create our Windows 10 VM. To do this open up your Virtual Box Manager</h1>
 
 <img width="795" alt="Screenshot 2024-05-19 at 5 08 21 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/c6b4ca24-ec6c-4839-a2a5-ee47155de6b5">
 
@@ -93,7 +95,7 @@ Once you have done that click OK
 
 Congrats we have created our Windows 10 VM! Now we can add this VM to our domain.
 
-Step 3) Now we are going to set up our VM and create a local admin account so we can add our VM to the domain
+<h1>Step 3) Now we are going to set up our VM and create a local admin account so we can add our VM to the domain </h1>
 
 To start lets double click on our VM 
 
@@ -126,7 +128,6 @@ Click Next. Your VM will then install Windows 10. This may take a bit of time.
 
 <img width="633" alt="Screenshot 2024-05-19 at 5 44 47 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/f2d2e9b3-b6b1-4ea3-ba35-7e3cd266deac">
 
-Step 3) Now it's time to create a local admin account
 
 <img width="636" alt="Screenshot 2024-05-19 at 5 53 29 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/ddc1b9b1-b9c2-4029-a1ec-1e91b9241b20">
 
@@ -158,7 +159,6 @@ Once done click accept
 
 <img width="635" alt="Screenshot 2024-05-19 at 6 03 02 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/598dd329-8318-4c82-b0ff-1651daf4d585">
 
-Personally I would not set up cortana but that is up to you
 
 Once completed your computer will configure itself to the information we provided.
 
@@ -166,7 +166,7 @@ Once completed your computer will configure itself to the information we provide
 
 Just like that we are logged in as an admin for our VM! Now we can add this VM to our domain!
 
-Step 4) Now that we are logged in to our VM lets get it connected to our domain!
+<h1>Step 4) Connecting Computer to the Domain</h1>
 
 <img width="636" alt="Screenshot 2024-05-19 at 6 10 34 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/6127f7e2-7c75-4fbb-8f61-4e7a557b0e48"> 
 
