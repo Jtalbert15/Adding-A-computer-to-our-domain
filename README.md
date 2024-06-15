@@ -25,7 +25,7 @@ And just like that our server is up and running!
 
 Tip: Even though this machine is required to run for the lab we aren't really going to do anything with this VM after we create our helpdesk account so I recommend changing the power and sleep settings to never. When you do this make sure you turn off your VM when you've completed your lab or it will run forever.
 
-<h1>Step 2) Now that our server is up we can create our Windows 10 VM. To do this open up your Virtual Box Manager</h1>
+<h1>Step 2) Creating Windows 10 VM</h1>
 
 <img width="795" alt="Screenshot 2024-05-19 at 5 08 21 PM" src="https://github.com/Jtalbert15/Adding-A-computer-to-our-domain/assets/66844406/c6b4ca24-ec6c-4839-a2a5-ee47155de6b5">
 
